@@ -2,4 +2,4 @@
 
 @Authors Peter Chheu and John Chung
 
-(#Synopsis)
+[create-an-anchor](#Synopsis)

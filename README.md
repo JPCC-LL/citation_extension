@@ -11,8 +11,9 @@ A Google extension that allows users to easily create citations for web pages in
 
 
 ##Usage Instructions##
-Users simply input a web address and select what format they wish to use in the drop-down menu.  A citation is then produced and returned which the users may copy and paste to create their works cited page.
-
+* Users can click on the Extension logo if the current page can be cited. 
+* If possible, the user can then choose the citation format from a dropdown menu.
+* After clicking the Generate button, the extension will return a citation in which the user may copy and paste to create their works cited page. 
 
 ##History##
 

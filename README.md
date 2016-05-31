@@ -18,5 +18,5 @@ Users simply input a web address and select what format they wish to use in the 
 
 
 #Credits#
-Peter Chheu
+Peter Chheu  
 John Chung

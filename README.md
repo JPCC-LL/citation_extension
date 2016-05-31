@@ -2,4 +2,14 @@
 
 @Authors Peter Chheu and John Chung
 
-[create-an-anchor](#Synopsis)
+#Synopsis#
+
+#Installation#
+
+#Installation Process#
+
+#Usage Intructions#
+
+#History#
+
+#Credits#

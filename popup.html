@@ -4,19 +4,54 @@
   
   <title>Citation Extension</title>
 
-  <link href="lib/css/main.css" rel = "stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
-  <script src="lib/js/popup.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+	<!-- Personalized CSS -->
+	<link rel = "stylesheet" href="lib/css/main.css">
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+	<script src="lib/js/popup.js"></script>
+
 </head>
 <body>
   
   <div id="logo">
     <h1>CiteRight</h1>
-  </div>
+  </div><!-- End of Logo Div -->
 
   <div id="content">
+  	
+	<div class="dropdown">
+	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	    MLA
+	    <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+	  	<!-- Add more Citation styles here -->
+	    <li><a href="#">Chicago</a></li>
+	    <li><a href="#">APA</a></li>
+	    <li><a href="#">Harvard</a></li>
+	  </ul>
+	</div><!-- End of Dropdown Div -->
 
-  </div>
+	<div id="citation-text">
+		Hello World
+	</div><!-- End of Citation Text -->
 
+  	<div id="buttons">
+
+  		<!-- Try to Copy to Clipboard -->
+	 	<button type="button" class="btn btn-primary" type="submit">Copy</button>
+
+	 	<!-- Save Citation to a file -->
+	  	<button type="button" class="btn btn-primary" type="submit">Save</button>
+
+  	</div><!-- End of Buttons Div -->
+
+  </div><!-- End of Content Div -->
+
+
+	<script src="lib/js/jquery-2.2.4.min.js"></script>
+	<script src="lib/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,5 +1,4 @@
 *{
-	
 	margin: 0;
 	padding-bottom: 5px;
 }
@@ -30,7 +29,13 @@ h1{
 	margin: 7px 2px 5px 2px;
 }
 #citation-text{
-	margin: 10px 10px 5px 10px;
+	margin: 15px 10px 5px 10px;
+	padding: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 5px;
+	border-width: 3px;
+	text-align: center;
 }
 #buttons{
 	position: absolute;

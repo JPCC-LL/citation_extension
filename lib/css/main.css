@@ -4,7 +4,7 @@
 }
 body{
 	font-family: 'Open Sans', sans-serif !important;
-	min-width: 500px;
+	min-width: 220px;
 	background-color: #f9f9f9;
 	padding-bottom: 50px;
 }
@@ -41,4 +41,5 @@ h1{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	margin-right: 10px;
 }

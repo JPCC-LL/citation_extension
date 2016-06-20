@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+	"name": "Citation_Extension",
+	"description": "A Google extension that allows users to easily create citations for web pages in various formats.",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_popup": "popup.html",
+		"default_title": "Click for Citations"
+	},
+
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	]
+}

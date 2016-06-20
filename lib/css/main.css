@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding-bottom: 5px;
+}
+body{
+	font-family: 'Open Sans', sans-serif !important;
+	min-width: 220px;
+	background-color: #f9f9f9;
+	padding-bottom: 50px;
+}
+h1{
+	margin: 0;
+	padding: 0;
+	font-size: 200%;
+}
+#logo{
+	background-color: #1199ff;
+	height: 50px;
+	text-align: center;
+}
+#logo h1{
+	line-height: 45px;
+}
+#content{
+	margin-top: 5px;
+}
+#content button{
+	padding: 5px;
+	margin: 7px 2px 5px 2px;
+}
+#citation-text{
+	margin: 15px 10px 5px 10px;
+	padding: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 5px;
+	border-width: 3px;
+	text-align: center;
+}
+#buttons{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 10px;
+}

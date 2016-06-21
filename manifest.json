@@ -11,11 +11,21 @@
 		"default_title": "Click for Citations"
 	},
 
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["lib/js/popup.js"]
+        }
+    ],
+
 	"permissions": [
 		"activeTab",
 		"tabs",
-		"clipboardWrite",
-		"http://*/*",
-		"https://*/*"
+		"clipboardWrite"
 	]
 }

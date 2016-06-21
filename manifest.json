@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "manifest_version": 2,
+=======
+	"manifest_version": 2,
+>>>>>>> 0b0b1b4f245ef7d34266f3842c4a7093fb424d35
 
 	"name": "Citation_Extension",
 	"description": "A Google extension that allows users to easily create citations for web pages in various formats.",
@@ -17,4 +21,8 @@
 		"http://*/*",
 		"https://*/*"
 	]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0b0b1b4f245ef7d34266f3842c4a7093fb424d35

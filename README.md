@@ -25,3 +25,4 @@ A Google extension that allows users to easily create citations for web pages in
 ##Credits##
 @Author Peter Chheu  
 @Author John Chung
+@Author Lawrence Qiu

@@ -6,7 +6,6 @@ body{
 	font-family: 'Open Sans', sans-serif !important;
 	min-width: 220px;
 	background-color: #f9f9f9;
-	padding-bottom: 50px;
 }
 h1{
 	margin: 0;
@@ -31,15 +30,17 @@ h1{
 #citation-text{
 	margin: 15px 10px 5px 10px;
 	padding: 10px 10px 10px 10px;
-	border-style: solid;
-	border-color: gray;
-	border-radius: 5px;
-	border-width: 3px;
-	text-align: center;
+    border-radius: 5px;
+    border: 3px solid gray;
+    text-align: center;
 }
 #buttons{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	margin-right: 10px;
+    position: relative;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#missing-data{
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
 }

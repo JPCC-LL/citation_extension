@@ -3,7 +3,7 @@
 
 	"name": "Citation_Extension",
 	"description": "A Google extension that allows users to easily create citations for web pages in various formats.",
-	"version": "1.0.2",
+	"version": "1.1",
 
 	"browser_action": {
 		"default_icon": "logo.png",
@@ -11,11 +11,21 @@
 		"default_title": "Click for Citations"
 	},
 
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["lib/js/popup.js"]
+        }
+    ],
+
 	"permissions": [
 		"activeTab",
 		"tabs",
-		"clipboardWrite",
-		"http://*/*",
-		"https://*/*"
+		"clipboardWrite"
 	]
 }

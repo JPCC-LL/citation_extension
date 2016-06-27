@@ -16,7 +16,9 @@ A Google extension that allows users to easily create citations for web pages in
 
 
 ##History##
-
+* Users can now select from three citation styles (MLA, APA, Chicago)
+* Added option to save the citation generated to their clipboard
+* Now able to edit/update data entries for the citation
 
 ##License##
 [MIT License](http://www.opensource.org/licenses/mit_license.php)

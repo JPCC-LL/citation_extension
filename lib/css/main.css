@@ -47,3 +47,7 @@ button{
     margin-right: 5px;
     margin-left: 5px;
 }
+ul{
+	display: table;
+	margin: 0 auto;
+}

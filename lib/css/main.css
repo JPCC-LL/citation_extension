@@ -4,7 +4,7 @@
 }
 body{
 	font-family: 'Open Sans', sans-serif !important;
-	min-width: 220px;
+	min-width: 300px;
 	background-color: #f9f9f9;
 }
 h1{
@@ -29,6 +29,7 @@ h1{
     border-radius: 5px;
     border: 3px solid gray;
     text-align: center;
+	word-wrap: break-word;
 }
 #buttons{
     position: relative;
@@ -38,11 +39,15 @@ h1{
 }
 button{
     display: table-cell;
-    width: 31%;
+    width: 47%;
     margin: 1%;
 }
 #missing-data{
     position: relative;
     margin-right: 5px;
     margin-left: 5px;
+}
+ul{
+	display: table;
+	margin: 0 auto;
 }
